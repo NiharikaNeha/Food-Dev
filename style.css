@@ -299,6 +299,13 @@ p {
   color: rgb(244, 21, 21);
 }
 
+.btn,
+.btn-1 {
+  font-size: 1rem;
+  padding: 10px 16px;
+  width: fit-content;
+}
+
 /* FOOTER PART STYLING */
 
 /* RESPONSIVENESS PART */
@@ -325,13 +332,9 @@ p {
     transform: translateX(-50%);
     width: 20rem;
     padding: 2rem;
-    background-color: #ccc7c7c9;
+    background-color: #adaaaa;
     border: 0.1rem solid var(--gold-finger);
     border-radius: 2rem;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #ca1f1f);
-    box-shadow: 0 0 5px #ec2929, 0 0 15px #ee0f0f, 0 0 25px #ca1f1f,
-      0 0 100px #ca1f1f;
-    transition: all 0.5s ease-in-out;
   }
 
   .mobile-menu-active {
@@ -340,4 +343,38 @@ p {
   }
 
   /* SECTION RESPONSIVENESS */
+  @media screen and (max-width: 780px) {
+    .hero-section {
+      flex-direction: column;
+      gap: 2rem;
+      text-align: center;
+      padding-top: 2rem;
+    }
+
+    .content h1 {
+      font-size: 2.8rem;
+    }
+
+    .para {
+      font-size: 1rem;
+    }
+
+    .image-container {
+      max-width: 80%;
+    }
+
+    .icon-logos {
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .icon-logos .button {
+      width: 40px;
+    }
+
+    .icon-logos .button:hover {
+      width: 150px;
+    }
+  }
 }
