@@ -362,19 +362,5 @@ p {
     .image-container {
       max-width: 80%;
     }
-
-    .icon-logos {
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    .icon-logos .button {
-      width: 40px;
-    }
-
-    .icon-logos .button:hover {
-      width: 150px;
-    }
   }
 }
