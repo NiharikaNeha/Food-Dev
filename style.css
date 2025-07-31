@@ -9,7 +9,7 @@
 
 :root {
   --lead: #212121;
-  --gold-finger: #f3bc07;
+  --gold-finger: #ef3838;
   --eye-ball: #fffdf7;
   --hint-yellow: #fcf1cc;
   --pure-white: #fff;
@@ -100,7 +100,7 @@ img {
   font-weight: 400;
   width: 100%;
   height: 2.5px;
-  background-color: #deab03;
+  background-color: #ca1f1f;
   transform: scaleX(0);
   transform: transform 1s;
 }
@@ -125,17 +125,17 @@ img {
   padding: 5px 7px;
   border: 0;
   color: #212121;
-  background-color: #e6ba2c;
+  background-color: #f51313;
   border-radius: 6px;
   font: 600 20px;
-  box-shadow: 0 6px 0 #deab03;
+  box-shadow: 0 6px 0 #ca1f1f;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .btn:active {
   transform: translateY(5px);
-  box-shadow: 0 3px #deab03;
+  box-shadow: 0 3px #ca1f1f;
 }
 
 .cart-icon {
@@ -153,7 +153,7 @@ img {
   width: 22px;
   aspect-ratio: 1;
   border-radius: 100vw;
-  background-color: #f3bc07;
+  background-color: #ef3838;
   color: #212121;
   text-align: center;
 }
@@ -185,7 +185,7 @@ h1 {
 }
 
 h1 span {
-  color: #deab03;
+  color: #ca1f1f;
 }
 
 p {
@@ -205,17 +205,17 @@ p {
   padding: 10px 10px;
   border: 0;
   color: #212121;
-  background-color: #e6ba2c;
+  background-color: #f51313;
   border-radius: 6px;
   font: 600 20px;
-  box-shadow: 0 6px 0 #deab03;
+  box-shadow: 0 6px 0 #ca1f1f;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .btn-1:active {
   transform: translateY(5px);
-  box-shadow: 0 3px #deab03;
+  box-shadow: 0 3px #ca1f1f;
 }
 
 .icon-logos .button {
@@ -226,7 +226,7 @@ p {
   text-decoration: none;
   overflow: hidden;
   background: #fff;
-  border: 1px solid #deab03;
+  border: 1px solid #ca1f1f;
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
@@ -302,7 +302,6 @@ p {
 /* FOOTER PART STYLING */
 
 /* RESPONSIVENESS PART */
-
 /* HEADER RESPONSIVENESS */
 @media screen and (max-width: 780px) {
   .navlist,
@@ -329,9 +328,9 @@ p {
     background-color: #ccc7c7c9;
     border: 0.1rem solid var(--gold-finger);
     border-radius: 2rem;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #f2bb08);
-    box-shadow: 0 0 5px #f3bc07, 0 0 15px #f3bc07, 0 0 25px #f3bc07,
-      0 0 100px #f3bc07;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #ca1f1f);
+    box-shadow: 0 0 5px #ec2929, 0 0 15px #ee0f0f, 0 0 25px #ca1f1f,
+      0 0 100px #ca1f1f;
     transition: all 0.5s ease-in-out;
   }
 
