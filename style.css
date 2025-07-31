@@ -343,7 +343,7 @@ p {
   }
 
   /* SECTION RESPONSIVENESS */
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 360px) {
     .hero-section {
       flex-direction: column;
       gap: 2rem;
