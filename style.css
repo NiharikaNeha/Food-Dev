@@ -9,7 +9,7 @@
 
 :root {
   --lead: #212121;
-  --gold-finger: #ef3838;
+  --gold-finger: #ca1f1f;
   --eye-ball: #fffdf7;
   --hint-yellow: #fcf1cc;
   --pure-white: #fff;
@@ -69,6 +69,14 @@ img {
 
 .gap-2 {
   gap: 2rem;
+}
+
+.p-top {
+    padding-top: 5rem;    
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* HEADER PART STYLING */
@@ -174,7 +182,7 @@ img {
 }
 
 .content,
-.image-container {
+.image-container{
   flex: 1;
   flex-basis: 300px;
 }
@@ -304,6 +312,41 @@ p {
   font-size: 1rem;
   padding: 10px 16px;
   width: fit-content;
+}
+
+/* SECTION 1 */
+.h3-tag {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    color: var(--gold-finger);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 3.7rem;
+    text-transform: capitalize;
+    color: #212121;
+}
+
+h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #212121;
+}
+
+.service-card {
+  flex: 1;
+  flex-basis: 300px;
+}
+
+.service-card h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.mt {
+    margin-top: 20px;
 }
 
 /* FOOTER PART STYLING */
