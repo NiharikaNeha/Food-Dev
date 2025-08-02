@@ -72,11 +72,11 @@ img {
 }
 
 .p-top {
-    padding-top: 5rem;    
+  padding-top: 5rem;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 /* HEADER PART STYLING */
@@ -182,7 +182,7 @@ img {
 }
 
 .content,
-.image-container{
+.image-container {
   flex: 1;
   flex-basis: 300px;
 }
@@ -314,46 +314,47 @@ p {
   width: fit-content;
 }
 
-/* SECTION 1 */
+/* SECTION-1 */
 .h3-tag {
-    font-size: 1.8rem;
-    font-weight: bold;
-    letter-spacing: 0.2rem;
-    color: var(--gold-finger);
-    text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  color: var(--gold-finger);
+  text-transform: uppercase;
 }
 
 h2 {
-    font-size: 3.7rem;
-    text-transform: capitalize;
-    color: #212121;
+  font-size: 3.7rem;
+  text-transform: capitalize;
+  color: #212121;
 }
 
 h3 {
-    font-size: 2rem;
-    text-transform: capitalize;
-    color: #212121;
-}
-
-.service-card {
-  flex: 1;
-  flex-basis: 300px;
-}
-
-.service-card h3 {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #212121;
 }
 
 .mt {
-    margin-top: 20px;
+  margin-top: 20px;
 }
+
+.service-card {
+    padding: 3rem;
+    margin-left: 3.85rem;
+    margin-bottom: 12px;
+    border: 2px solid rgb(166, 163, 163);
+    border-radius: 20px;
+    box-shadow: 0 0 12px rgb(108, 107, 107);
+}
+
+/* SECTION-2 */
 
 /* FOOTER PART STYLING */
 
 /* RESPONSIVENESS PART */
 /* HEADER RESPONSIVENESS */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
   .navlist,
   .desktop-action .btn {
     display: none;
@@ -386,7 +387,7 @@ h3 {
   }
 
   /* SECTION RESPONSIVENESS */
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 768px) {
     .hero-section {
       flex-direction: column;
       gap: 2rem;
@@ -406,5 +407,49 @@ h3 {
       max-width: 80%;
     }
   }
+
+  /* SECTION-1 */
+  /* SECTION-1 RESPONSIVENESS */
+@media screen and (max-width: 768px) {
+  .section-1 {
+    flex-direction: column; 
+    align-items: center;         
+    text-align: center;          
+    gap: 2rem;                    
+  }
+
+  .service-card {
+    width: 100%;
+    max-width: 1000px;
+    margin-right: 60px;
+  }
+
+  .h3-tag,
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  .service-card img {
+    margin: auto;
+  }
 }
 
+@media screen and (max-width: 480px) {
+  .h3-tag {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  .section-1 {
+    padding-inline: 1rem;
+  }
+}
+}
